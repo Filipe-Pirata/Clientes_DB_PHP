@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--white-strong);
+  
+}
+
+:root {
+ --orange: #ca6c39;
+ --blue: #07A0C3;
+ --red: #DD1C1A;
+ --red-light: #a5454a;
+ --green: #038387;
+ --dark-green: #407855;
+ --yellow: #f0c808;
+ --white-strong: #fff1d0;
+ --dark-blue: #086788;
+ --white: #ffff;
+
+}
+
+body {
+  background:var(--dark-blue);
+  
+
+}
+
+
+.inputBox {
+  position: relative;
+  margin-bottom: 2rem;
+  color: var(--white);
+  font-weight: bold;
+
+  
+}
+
+.inputUser:focus ~ .labelinput{
+  display: none;
+
+}
+
+
+
+.inputUser {
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--white);
+  outline: none;
+  color: var(--white);
+  font-size: 1.125rem;
+  width: 100%;
+  letter-spacing: 2px;
+  border-radius: 8px;
+
+}
+
+.labelinput{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: .5s ;
+  font-size: 1.125rem;
+}
+
+.box {
+  border-radius: 8px;
+  background: var(--blue);
+  opacity: 0.1;
+
+  /* Centralização */
+  position: absolute; /*Ocupa o exato espaço dos elementos da DIV */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* temrina centralização */
+
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  opacity: 0.8;
+ 
+  
+  
+  }
+  fieldset {
+    padding: 4rem;
+    border-radius: 8px;
+    color: var(--white);
+    border: 3px solid var(--white-strong);
+    justify-content: space-between;
+  
+
+  }
+
+  legend {
+    border: 3px solid var(--white-strong);
+    padding: 0.5rem;
+    background: var(--red);
+    border-radius: 8px;
+    text-align: center;
+
+
+  }
+
+  input {
+    padding: 0.5rem;
+    /* border-radius: 8px; */
+    border: none;
+  }
+
+
+  .submit {
+
+  background-color: var(--red);
+  border: none;
+  border-radius: 8px;
+  padding: 1.2rem ;
+  flex-direction: row;
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+
+  width: 100%;
+
+
+}
+.submit:hover {
+background: var(--red-light) ;
+
+}
+
+.genero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  font-size: 1.125rem;
+  gap: 5px;
+  color: var(--white);
+}
+
+
+.data_nascimento {
+  font-size: 1.125rem;
+
+
+}
+

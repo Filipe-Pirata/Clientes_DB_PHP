@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --orange: #ca6c39;
+  --blue: #07A0C3;
+  --red: #DD1C1A;
+  --red-light: #a5454a;
+  --green: #038387;
+  --dark-green: #407855;
+  --yellow: #f0c808;
+  --white-strong: #fff1d0;
+  --dark-blue: #086788;
+  --white: #ffff;
+}
+
+body {
+  background: var(--dark-blue);
+  text-align: center;
+  color: var(--white);
+}
+
+h1 {
+margin-top: 3rem;
+
+}
+
+.tablecolor {
+  background: var(--blue);
+  border-radius: 8px 8px 0 0 ;
+
+}

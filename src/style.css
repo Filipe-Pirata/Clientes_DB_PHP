@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--white-strong);
+}
+
+:root {
+  --orange: #ca6c39;
+  --blue: #07A0C3;
+  --red: #DD1C1A;
+  --red-light: #a5454a;
+  --green: #038387;
+  --dark-green: #407855;
+  --yellow: #f0c808;
+  --white-strong: #fff1d0;
+  --dark-blue: #086788;
+  --white: #ffff;
+}
+
+body {
+  background:var(--dark-blue);
+}
+
+
+.container {
+border-radius: 8px;
+background: var(--blue);
+position: absolute; /*Ocupa o exato espaço dos elementos da DIV */
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 4rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 0.75rem;
+opacity: 0.8;
+
+
+}
+
+.container h1 {
+color: var(--white);
+
+}
+
+.botaoEnviar {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--red);
+  border: none;
+  border-radius: 8px;
+  padding: 1rem ;
+  flex-direction: row;
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
+ 
+}
+.botaoEnviar:hover {
+background: var(--red-light) ;
+
+}
+
+
+.logpass {
+padding: 0.5rem;
+border-radius: 8px;
+border: none;
+
+}
+
