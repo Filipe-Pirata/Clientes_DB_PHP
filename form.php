@@ -44,41 +44,41 @@
         <fieldset>
           <legend><b>Formulário de Cadastro</b></legend>
           <div class="inputBox">
-            <input type="text" name="nome" id="nome" required class="inputUser"/>
-            <label for="nome" class="labelinput">Nome</label>
+            <input type="text" name="nome" id="nome" required class="inputUser" placeholder="Nome" />
+            <label for="nome" class="labelinput"></label>
           </div>
           <div class="inputBox">
-            <input type="email" name="email" id="email" required class="inputUser"/>
-            <label for="email" class="labelinput">Email</label>
+            <input type="email" name="email" id="email" required class="inputUser" placeholder="E-mail"/>
+            <label for="email" class="labelinput"></label>
           </div>
           <div class="inputBox">
-            <input type="password" name="senha" id="senha" required class="inputUser"/>
-            <label for="nome" class="labelinput">Senha</label>
+            <input type="password" name="senha" id="senha" required class="inputUser" placeholder="Senha"/>
+            <label for="nome" class="labelinput"></label>
           </div>
           <div class="inputBox">
-            <input type="text" name="RG" required class="inputUser" />
-            <label for="RG" class="labelinput">RG</label>
+          <input type="text" name="RG" required class="inputUser" placeholder="RG" />
+            <label for="RG" class="labelinput"></label>
           </div>
           <div class="inputBox">
-            <input type="text" name="CPF" required class="inputUser" />
-            <label for="CPF" class="labelinput">CPF</label>
+            <input type="text" name="CPF" required class="inputUser" placeholder="CPF"/>
+            <label for="CPF" class="labelinput"></label>
           </div>
           <div class="inputBox">
-            <input type="text" name="cidade" required class="inputUser" />
-            <label for="cidade" class="labelinput">Cidade</label>
+            <input type="text" name="cidade" required class="inputUser" placeholder="Cidade" />
+            <label for="cidade" class="labelinput"></label>
           </div>
           <div class="inputBox">
-            <input type="text" name="estado" required class="inputUser" />
-            <label for="estado" class="labelinput">Estado</label>
+            <input type="text" name="estado" required class="inputUser" placeholder="Estado" />
+            <label for="estado" class="labelinput"></label>
           </div>
           <div class="inputBox">
-            <input type="text" name="address" required class="inputUser" />
-            <label for="address" class="labelinput">Endereço</label>
+            <input type="text" name="address" required class="inputUser" placeholder="Endereco"/>
+            <label for="address" class="labelinput"></label>
           </div>
 
           <div class="inputBox">
-            <input type="tel" name="telephone" required class="inputUser" />
-            <label for="telephone" class="labelinput">Telefone</label>
+            <input type="tel" name="telephone" required class="inputUser" placeholder="Telefone"/>
+            <label for="telephone" class="labelinput"></label>
           </div>
           <div class="genero">
             <p><strong>Sexo:</strong></p>
@@ -96,8 +96,7 @@
           </div>
 
           <div class="inputBox">
-            <label for="data_nascimento"
-              ><strong class="data_nascimento">Data de Nascimento:</strong>
+            <label for="data_nascimento"><strong class="data_nascimento">Data de Nascimento:</strong>
             </label>
             <input
               type="date"

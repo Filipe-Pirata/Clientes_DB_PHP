@@ -42,7 +42,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style_form.css" />
+    <link rel="stylesheet" href="./src/style_form.css" />
     <title>Area de Cadastro</title>
   </head>
   <body>
